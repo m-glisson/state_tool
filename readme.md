@@ -7,6 +7,7 @@ Normally this should be handled internall to the testing tool, however that was 
 
 ## To run
 `docker build --tag state-tool .`
+
 `docker run -d -p 8000:5000 state-tool`
 
 - open localhost:8000/thread (or whatever you chose)
